@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+
+    widows: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    position: relative;
+}
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(111, 57, 18, 0.882);
+}
+#left{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+/* #img img{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+} */
+#box5{
+    width: 40%;
+    height: 50%;
+    background-image: url(https://i.pinimg.com/originals/1a/4a/de/1a4ade54dc9c158f17db0edde97eaefa.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    border-radius: 50%;
+}
+#nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+#nav h5{
+    font-size: 15px;
+    font-family: aeonik;
+    border: 1px solid white;
+    padding: 5px 9px;
+    border-radius: 50px;
+    margin: 0 80px;
+    color: white;
+}
+#line{
+    border-top: 2px solid white;
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+#line1{
+    border-top: 2px solid white;
+    width: 18px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#line2{
+    border-top: 2px solid white;
+    width: 15px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+#text{
+    /* text-align: center;
+    justify-content: center; */
+    color: rgb(234, 187, 157);
+}
+#text h2{
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+#text h1{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font-size: 30px;
+}
+#text h3{
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    font-size: 30px;
+}
+#text p{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    font-size: 13px; 
+}
+#text h4{
+    color: black;
+    position: absolute;
+    top: 310px;
+    left: 50px;
+    font-size: 19px; 
+    background-color: aliceblue;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+}
+#text h4:hover{
+    background-color: red;
+    color: white;
+    width: 130px  
+}
+#bottom{
+    position: absolute;
+    top: 83%;
+    left: 10px;
+}
+#bottom h1{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 160px;
+    height:25px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(149, 149, 5);
+    transition: all 1s ease-in-out;
+}
+#bottom p{
+    font-size: 10px;
+    color: antiquewhite;   
+}
+#bottom1{
+    position: absolute;
+    top: 83%;
+    left: 250px;
+}
+#bottom h1:hover{
+    background-color: black;
+    color: red;
+    width: 170px;
+}
+#bottom1 h1{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 120px;
+    height:25px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(149, 149, 5);
+    transition: all 1s ease-in-out;
+}
+#bottom1 h1:hover{
+    background-color: black;
+    color: red;
+    width: 130px;
+}
+#bottom1 p{
+    font-size: 10px;
+    color: antiquewhite; 
+}
+#bottom2{
+    position: absolute;
+    top: 83%;
+    left: 450px;
+}
+#bottom2 h1{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80px;
+    height:25px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(149, 149, 5);
+    transition: all 1s ease-in-out;
+}
+#bottom2 h1:hover{
+    background-color: black;
+    color: red;
+    width: 90px;
+}
+#bottom2 p{
+    font-size: 10px;
+    color: antiquewhite; 
+}
+#left #box{
+    width: 10%;
+    height: 8%;
+    background-image: url(https://media.istockphoto.com/photos/portrait-of-a-handsome-young-businessman-working-in-office-picture-id1369199360?b=1&k=20&m=1369199360&s=170667a&w=0&h=1GywRC7tzZtKVwu48tnLdrr4KnV1zLbH2uYfe6swzaI=);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#left #text h1{
+    position: absolute;
+    top: 15px;
+    left: 680px;
+    font-size: 20px;
+    color: black;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#left #box1{
+    width: 3%;
+    height: 5%;
+    background-image: url(https://previews.123rf.com/images/dedegrphc/dedegrphc2007/dedegrphc200700812/152736516-airplane-logo-template-vector-illustration-icon-design-plane-icon-vector-.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 15px;
+    left: 980px;
+}
+#logo img{
+    position: absolute;
+    top: 92%;
+    left: 61%;
+    width: 30px;
+}
+#logo1 img{
+    position: absolute;
+    top: 91.5%;
+    left: 65%;
+    width: 37px;
+}
+#logo2 img{
+    position: absolute;
+    top: 92%;
+    left: 69%;
+    width: 50px;
+}
+#logo3 img{
+    position: absolute;
+    top: 92%;
+    left: 75%;
+    width: 30px;
+}
+#left #box3{
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    /* background-color: black; */
+    background-image: url(https://www.dhresource.com/webp/m/0x0/f2/albu/g4/M00/43/F1/rBVaEFd-cwSAX6QKAAFEYR_hQEc081.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black ;
+    top: 30%;
+    left: 92%;
+    transition: all 0.5s ease-in-out;
+}
+#left #box3:hover{
+    height: 11%;
+}
+#left #box4{
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    /* background-color: black; */
+    background-image: url(https://pyxis.nymag.com/v1/imgs/77c/0dc/d5436ccfa37df17630f21dd016c927f227-kattee-canvas-camera-bag.2x.rhorizontal.w600.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black ;
+    top: 50%;
+    left: 92%;
+    transition: all 0.5s ease-in-out;
+}
+#left #box4:hover{
+    height: 11%;
+}
+#left #box6{
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    /* background-color: black; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs_q0i-QxllpvBjcB9pWEEBmh5BKEh7kphBA&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black ;
+    top: 70%;
+    left: 92%;
+    transition: all 0.5s ease-in-out;
+}
+#left #box6:hover{
+    /* width: 9%; */
+    height: 11%;
+}
+#line5{
+    border: 0.5px solid black;
+    position: absolute;
+    top: 32%;
+    left: 77%;
+    width: 150px;
+    /* transition: all 1s ease-in-out; */
+}
+
+#line6{
+    border: 0.5px solid black;
+    position: absolute;
+    top: 53%;
+    left: 88%;
+    width: 40px;
+}
+#line7{
+    border: 0.5px solid black;
+    position: absolute;
+    top: 76%;
+    left: 79%;
+    width: 130px;
+}
+
